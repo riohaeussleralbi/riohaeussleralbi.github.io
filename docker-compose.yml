@@ -22,7 +22,5 @@ services:
 
     develop:
       watch:
-        - action: sync
-          path: .
         - action: rebuild
           path: .
