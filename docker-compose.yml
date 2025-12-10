@@ -19,8 +19,3 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
-
-    develop:
-      watch:
-        - action: rebuild
-          path: .
