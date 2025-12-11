@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: University of Wisconsin-Madison
 
 profile:
   align: right
@@ -10,7 +9,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Van Vleck 418</p>
-    <p>480 Lincoln Drive</p>
+    <p>480 Lincoln Dr</p>
     <p>Madison, Wisconsin 53703</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
