@@ -3,7 +3,7 @@
     "name": "Rio Haeussler Albi",
     "image": "",
     "email": "haeussleralb@wisc.edu",
-    "website": "https://riohaeussleralbi.github.io",
+    "website": "{{{https://riohaeussleralbi.github.io}}}",
     "summary": "",
     "location": {
       "address": "480 Lincoln Dr",
@@ -23,7 +23,7 @@
     "education": [
     {
       "institution": "University of Wisconsin-Madison",
-      "location": "Madison, WI, United States",
+      "location": "Madison, Wisconsin",
       "url": "https://www.math.wisc.edu/",
       "area": "Mathematics",
       "studyType": "PhD",
@@ -37,7 +37,7 @@
       "location": "Hamburg, Germany",
       "url": "https://www.math.uni-hamburg.de/",
       "area": "Mathematics",
-      "studyType": "PhD",
+      "studyType": "Bachelor of Science",
       "startDate": "2022-10-01",
       "endDate": "2025-07-01",
       "score": "10",
@@ -67,7 +67,7 @@
       "summary": "",
       "highlights": ["Higher category theory", "Homological algebra"],
       "startDate": "2025-04-01",
-      "endDate": "2026-03-01",
+      "endDate": "",
       "url": ""
     }
   ]
