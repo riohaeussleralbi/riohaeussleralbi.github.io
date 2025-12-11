@@ -66,16 +66,11 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "news-i-have-graduated-from-the-university-of-hamburg-with-a-bsc-in-mathematics",
+          title: 'I have graduated from the University of Hamburg with a BSc in Mathematics!...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-i-have-begun-my-graduate-studies-in-math-at-the-university-of-wisconsin-madison",
+          title: 'I have begun my graduate studies in math at the University of Wisconsin-Madison!...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
