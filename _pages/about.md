@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: University of Wisconsin-Madison
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Van Vleck Hall Office 418</p>
+    <p>Van Vleck Hall 418</p>
     <p>480 Lincoln Drive</p>
     <p>Madison, Wisconsin 53703</p>
 
@@ -23,7 +23,7 @@ announcements:
 
 ---
 
-Hi! I'm Rio, a first-year PhD student in Mathematics at the University of Wisconsin-Madison.
+Hi! I'm Rio, a first-year PhD student in Mathematics at the University of Wisconsin-Madison. I am broadly interested in homological algebra and (higher) category theory, and their interaction with algebraic geometry/topology.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
