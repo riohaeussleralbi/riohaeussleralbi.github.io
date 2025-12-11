@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Van Vleck Hall 418</p>
+    <p>Van Vleck 418</p>
     <p>480 Lincoln Drive</p>
     <p>Madison, Wisconsin 53703</p>
 
