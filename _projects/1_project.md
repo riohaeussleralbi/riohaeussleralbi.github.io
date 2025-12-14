@@ -1,25 +1,16 @@
 ---
 layout: page
 title: Semiorthogonal decomposition of stable $\infty$-categories.
-description: 
+description:
 img: assets/img/beilinsonsod_img.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Semiorthogonal decompositions of triangulated categories, first introduced by Bondal and Kapranov in 1989, have been a central tool in the study of derived categories for a long time. They give a systematic way to divide triangulated categories, e.g. the derived category $D^b(X)$ of coherent sheaves on an algebraic variety $X$ (or more generally a noetherian scheme), into simpler pieces. Perhaps most importantly, a semiorthogonal decomposition of a triangulated category $\mathcal T$ yields a direct sum decomposition of its $K$-theory $K(\mathcal T)$.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Recently 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
