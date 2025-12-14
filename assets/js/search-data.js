@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Courses I have taught.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "Below you can find my curriculum vitae. Alternatively, you can download the PDF version by clicking the icon on the right.",
