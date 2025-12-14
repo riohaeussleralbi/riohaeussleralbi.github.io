@@ -8,6 +8,7 @@ courses:
     title: Analysis II
     term: Summer 2024
     institution: University of Hamburg
+    institutionurl: https://math.uni-hamburg.de/
     role: Teaching Assistant
     description: 
     syllabus: 
@@ -17,6 +18,7 @@ courses:
     title: Analysis I
     term: Winter 2025
     institution: University of Hamburg
+    institutionurl: https://math.uni-hamburg.de/
     role: Teaching Assistant
     description: 
     syllabus: 
@@ -25,6 +27,7 @@ courses:
     title: Calculus and Analytic Geometry II
     term: Fall 2025
     institution: University of Wisconsin-Madison
+    institutionurl: https://math.wisc.edu/
     role: Teaching Assistant
     description: 
     syllabus: 
