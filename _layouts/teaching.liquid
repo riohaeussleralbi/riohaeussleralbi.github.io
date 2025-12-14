@@ -17,7 +17,7 @@ layout: default
 			<h2>Courses</h2>
 			{% for c in page.courses %}
 				<div class="card mb-3 p-3">
-					<h3>{{ c.code }} — {{ c.title }} <small>{{ c.term }}</small></h3>
+					<h3>{{ c.code }} — {{ c.title }} <small>{{ c.term }}, {{ c.institution }}</small></h3>
 					{% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
 					{% if c.description %}<p>{{ c.description }}</p>{% endif %}
 					<p>
