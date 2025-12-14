@@ -19,7 +19,7 @@ layout: default
                 {% if c.code %}
                     <div class="card mb-3 p-3">
                         <h3>{{ c.code }} — {{ c.title }}, <small>{{ c.term }}</small></h3>
-                        <h4>{{ c.institution | c.institutionurl }}</h4>
+                        <h4>href="{{ c.institution | c.institutionurl }}"</h4>
                         {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
                         {% if c.description %}<p>{{ c.description }}</p>{% endif %}
                         <p>
@@ -31,7 +31,7 @@ layout: default
                 {% else %}
                     <div class="card mb-3 p-3">
                         <h3>{{ c.title }}, <small>{{ c.term }}</small></h3>
-                        <h4>{{ c.institution | c.institutionurl }}</h4>
+                        <h4>href="{{ c.institution | c.institutionurl }}"</h4>
                         {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
                         {% if c.description %}<p>{{ c.description }}</p>{% endif %}
                         <p>

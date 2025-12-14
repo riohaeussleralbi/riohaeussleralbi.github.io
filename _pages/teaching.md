@@ -3,6 +3,8 @@ title: Teaching
 layout: teaching
 permalink: /teaching/
 description: Courses I have taught.
+nav: true
+nav_order: 4
 courses:
   - code:
     title: Analysis II
