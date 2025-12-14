@@ -45,7 +45,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-semiorthogonal-decomposition-of-stable-infty-categories",
           title: 'Semiorthogonal decomposition of stable $\infty$-categories.',
-          description: "with background image",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{
