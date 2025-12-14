@@ -16,16 +16,30 @@ layout: default
 		<section class="courses mt-4">
 			<h2>Courses</h2>
 			{% for c in page.courses %}
-				<div class="card mb-3 p-3">
-					<h3>{{ c.code }} — {{ c.title }} <small>{{ c.term }}, {{ c.institution }}</small></h3>
-					{% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
-					{% if c.description %}<p>{{ c.description }}</p>{% endif %}
-					<p>
-						{% if c.syllabus %}<a href="{{ c.syllabus | relative_url }}" target="_blank" rel="noopener">Syllabus</a>{% endif %}
-						{% if c.slides %} • <a href="{{ c.slides | relative_url }}">Slides</a>{% endif %}
-						{% if c.repo %} • <a href="{{ c.repo }}">Repo</a>{% endif %}
-					</p>
-				</div>
+                {% if c.code %}
+                    <div class="card mb-3 p-3">
+                        <h3>{{ c.code }} — {{ c.title }}, <small>{{ c.term }}</small></h3>
+                        <h3><small>{{ c.institution }}</small></h3>
+                        {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
+                        {% if c.description %}<p>{{ c.description }}</p>{% endif %}
+                        <p>
+                            {% if c.syllabus %}<a href="{{ c.syllabus | relative_url }}" target="_blank" rel="noopener">Syllabus</a>{% endif %}
+                            {% if c.slides %} • <a href="{{ c.slides | relative_url }}">Slides</a>{% endif %}
+                            {% if c.repo %} • <a href="{{ c.repo }}">Repo</a>{% endif %}
+                        </p>
+                    </div>
+                {% else %}
+                    <div class="card mb-3 p-3">
+                        <h3>{{ c.title }}, <small>{{ c.term }}</small></h3>
+                        <h3><small>{{ c.institution }}</small></h3>
+                        {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
+                        {% if c.description %}<p>{{ c.description }}</p>{% endif %}
+                        <p>
+                            {% if c.syllabus %}<a href="{{ c.syllabus | relative_url }}" target="_blank" rel="noopener">Syllabus</a>{% endif %}
+                            {% if c.slides %} • <a href="{{ c.slides | relative_url }}">Slides</a>{% endif %}
+                            {% if c.repo %} • <a href="{{ c.repo }}">Repo</a>{% endif %}
+                        </p>
+                    </div>
 			{% endfor %}
 		</section>
 		{% endif %}
