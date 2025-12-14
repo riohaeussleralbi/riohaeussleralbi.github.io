@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Semiorthogonal decomposition of stable $\infty$-categories.
-description: with background image
-img: assets/img/12.jpg
+description: 
+img: assets/img/beilinsonsod_img.jpg
 importance: 1
 category: work
 related_publications: false
