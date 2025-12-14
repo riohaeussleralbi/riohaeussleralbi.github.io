@@ -19,7 +19,19 @@ layout: default
                 {% if c.code %}
                     <div class="card mb-3 p-3">
                         <h3>{{ c.code }} — {{ c.title }}, <small>{{ c.term }}</small></h3>
-                        <h4>href="{{ c.institution | c.institutionurl }}"</h4>
+                                                {% if c.institution %}
+                                                    <h4>
+                                                        {% if c.institutionurl %}
+                                                            {%- if c.institutionurl contains '://' -%}
+                                                                <a href="{{ c.institutionurl }}">{{ c.institution }}</a>
+                                                            {%- else -%}
+                                                                <a href="{{ c.institutionurl | relative_url }}">{{ c.institution }}</a>
+                                                            {%- endif -%}
+                                                        {% else %}
+                                                            {{ c.institution }}
+                                                        {% endif %}
+                                                    </h4>
+                                                {% endif %}
                         {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
                         {% if c.description %}<p>{{ c.description }}</p>{% endif %}
                         <p>
@@ -31,7 +43,19 @@ layout: default
                 {% else %}
                     <div class="card mb-3 p-3">
                         <h3>{{ c.title }}, <small>{{ c.term }}</small></h3>
-                        <h4>href="{{ c.institution | c.institutionurl }}"</h4>
+                                                {% if c.institution %}
+                                                    <h4>
+                                                        {% if c.institutionurl %}
+                                                            {%- if c.institutionurl contains '://' -%}
+                                                                <a href="{{ c.institutionurl }}">{{ c.institution }}</a>
+                                                            {%- else -%}
+                                                                <a href="{{ c.institutionurl | relative_url }}">{{ c.institution }}</a>
+                                                            {%- endif -%}
+                                                        {% else %}
+                                                            {{ c.institution }}
+                                                        {% endif %}
+                                                    </h4>
+                                                {% endif %}
                         {% if c.role %}<p><strong>Role:</strong> {{ c.role }}</p>{% endif %}
                         {% if c.description %}<p>{{ c.description }}</p>{% endif %}
                         <p>

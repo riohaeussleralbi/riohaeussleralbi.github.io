@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: teaching
 layout: teaching
 permalink: /teaching/
 description: Courses I have taught.
