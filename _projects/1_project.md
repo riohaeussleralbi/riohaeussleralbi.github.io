@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Semiorthogonal decomposition of stable $\infty$-categories.
-description:
+description: Work in progress, advised by [Prof. Dr. Tobias Dyckerhoff](https://www.math.uni-hamburg.de/home/dyckerhoff/).
 img: assets/img/beilinsonsod_img.jpg
 importance: 1
 category: work
@@ -10,9 +10,9 @@ related_publications: false
 
 Semiorthogonal decompositions of triangulated categories, first introduced by Bondal and Kapranov in 1989, have been a central tool in the study of derived categories for a long time. They give a systematic way to divide triangulated categories, e.g. the derived category $D^b(X)$ of coherent sheaves on an algebraic variety $X$ (or more generally a noetherian scheme), into simpler pieces. Perhaps most importantly, a semiorthogonal decomposition of a triangulated category $\mathcal T$ yields a direct sum decomposition of its $K$-theory $K(\mathcal T)$.
 
-Recently 
+A natural (but vague) question in this context is the following: Given a semiorthogonal decomposition $\langle \mathcal A_0, \dots, \mathcal A_n \rangle$ of $\mathcal T$, what is a natural condition to impose so that $\mathcal T$ is reconstructible from the subcategories $\mathcal A_0, \dots, \mathcal A_n$ together with some form of gluing data? It turns out that if all of the inclusions of the subcategories $\mathcal A_0, \dots, \mathcal A_n$ admit left adjoints, then the subcategories form a lax $n$-simplex, i.e. a strictly unitary lax functor $[n] \to \mathcal Cat$ into the $2$-category of (small) categories. One would hope that $\mathcal T$ is then determined by this lax functor. However, essentially due to the non-functoriality of the cone, a calculation to reconstruct $\mathcal T$ fails.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -69,4 +69,4 @@ Here's the code for the last row of images above:
 </div>
 ```
 
-{% endraw %}
+{% endraw %} -->
