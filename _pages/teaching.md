@@ -18,7 +18,7 @@ courses:
     repo: 
   - code: 
     title: Analysis I
-    term: Winter 2025
+    term: Winter 2024
     institution: University of Hamburg
     institutionurl: https://math.uni-hamburg.de/
     role: Teaching Assistant
