@@ -34,6 +34,15 @@ courses:
     description: 
     syllabus: 
     repo: 
+  - code: Math 340
+    title: Elementary Matrix and Linear Algebra
+    term: Spring 2026
+    institution: University of Wisconsin-Madison
+    institutionurl: https://math.wisc.edu/
+    role: Teaching Assistant
+    description: 
+    syllabus: 
+    repo: 
 ---
 
 ## Resources
