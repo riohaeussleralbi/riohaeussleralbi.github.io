@@ -23,11 +23,16 @@ A natural question in this context is the following: Given a semiorthogonal deco
 
 Luckily, as shown as part of this work, this defect disappears in the enhanced setting of stable $\infty$-categories, a generalization of triangulated categories introduced by Lurie (2006). We develop an analogous "enhanced" theory of semiorthogonal decompositions of length $n$ in this context, extending the approach of Dyckerhoff & Kapranov (2021) for length $1$. As a preliminary result, we give a direct proof of an equivalence of $\infty$-categories between Waldhausen diagrams and coherent complexes valued in a stable $\infty$-category $\mathcal C$. The main example coming from algebraic geometry is the classical Beilinson semiorthogonal decomposition of $\mathbb P^n$. We prove an enhanced version of Beilinson's theorem on the derived equivalence between $\text{Coh}(\mathbb P^n)$ and representations of the Beilison quiver, which asserts a reconstruction of the $\infty$-category $D^b(\text{Coh}(\mathbb P^2))$ (and for general $n$) as the oplax limit of the following diagram:
 
+</div>
+
 {% include figure.liquid
    path="/assets/img/beilinsonsod_img.jpg"
    caption="Figure 1: Classifying diagram of $D^b(\text{Coh}(\mathbb P^2))$"
-   width="50%"
+   width="65%"
+   class="text-center"
 %}
+
+<div style="text-align: justify;">
 
 An early draft of this project turned into my Bachelor thesis. A more polished version will be available on the arXiv soon.
 
