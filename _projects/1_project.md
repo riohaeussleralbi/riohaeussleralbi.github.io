@@ -25,14 +25,18 @@ Luckily, as shown as part of this work, this defect disappears in the enhanced s
 
 </div>
 
+<div class="text-center">
+
 {% include figure.liquid
    path="/assets/img/beilinsonsod_img.jpg"
    caption="Figure 1: Classifying diagram of $D^b(\text{Coh}(\mathbb P^2))$"
-   width="65%"
-   class="text-center"
+   width="60%"
+   class="z-depth-1 rounded"
 %}
 
-<div style="text-align: justify;">
+</div>
+
+<div style="text-align: justify; margin-top:1rem;">
 
 An early draft of this project turned into my Bachelor thesis. A more polished version will be available on the arXiv soon.
 
