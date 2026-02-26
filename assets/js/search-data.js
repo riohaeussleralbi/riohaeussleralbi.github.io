@@ -45,7 +45,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-semiorthogonal-decomposition-of-stable-infty-categories",
           title: 'Semiorthogonal decomposition of stable $\infty$-categories.',
-          description: "Work in progress, advised by [Prof. Dr. Tobias Dyckerhoff](https://www.math.uni-hamburg.de/home/dyckerhoff/).",
+          description: "Work in progress, advised by Prof. Dr. Tobias Dyckerhoff.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{
