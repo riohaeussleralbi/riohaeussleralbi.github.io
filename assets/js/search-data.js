@@ -48,6 +48,11 @@ ninja.data = [{
           description: "Work in progress, advised by Prof. Dr. Tobias Dyckerhoff.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
+            },},{id: "projects-every-exercise-from-hartshorne-39-s-algebraic-geometry-chapters-i-iii",
+          title: 'Every exercise from Hartshorne&amp;#39;s Algebraic Geometry Chapters I-III.',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
