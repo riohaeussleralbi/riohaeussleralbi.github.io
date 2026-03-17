@@ -24,9 +24,9 @@ announcements:
 
 ---
 
-Hi! I'm Rio, a first-year PhD student in math at the [University of Wisconsin-Madison](https://math.wisc.edu). I am broadly interested in homological algebra and (higher) category theory, and their interaction with algebraic geometry/topology.
+Hi! I'm Rio, a first-year PhD student in mathematics at the [University of Wisconsin-Madison](https://math.wisc.edu). I am broadly interested in homological algebra and (higher) category theory, and their interaction with algebraic geometry/topology.
 
-Outside of mathematics, I'm a passionate soccer (or _football_, as it should be called) player and avid skier. I was born in Tokyo, Japan and grew up in Hamburg, Germany where I also completed my Bachelor's degree.
+Outside of math, I'm a passionate soccer (or _football_, as it should be called) player and avid skier. I was born in Tokyo, Japan and grew up in Hamburg, Germany where I also completed my Bachelor's degree.
 
 Feel free to reach out!
 
