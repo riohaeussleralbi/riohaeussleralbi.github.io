@@ -48,11 +48,16 @@ ninja.data = [{
           description: "Work in progress, advised by Prof. Dr. Tobias Dyckerhoff.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-every-exercise-from-hartshorne-39-s-algebraic-geometry-chapters-i-iii",
-          title: 'Every exercise from Hartshorne&amp;#39;s Algebraic Geometry Chapters I-III.',
+            },},{id: "projects-hartshorne-39-s-algebraic-geometry-chapters-i-iii-exercises",
+          title: 'Hartshorne&amp;#39;s Algebraic Geometry, Chapters I-III Exercises.',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
+            },},{id: "projects-hatcher-39-s-algebraic-topology-chapters-ii-iii-exercises",
+          title: 'Hatcher&amp;#39;s Algebraic Topology, Chapters II-III Exercises.',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
