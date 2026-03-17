@@ -4,7 +4,7 @@ title: Semiorthogonal decomposition of stable $\infty$-categories.
 description: Work in progress, advised by Prof. Dr. Tobias Dyckerhoff.
 img: assets/img/beilinsonsod_img.jpg
 importance: 1
-category: work
+category: research
 related_publications: false
 ---
 <div style="text-align: justify; margin-bottom:1rem;">
