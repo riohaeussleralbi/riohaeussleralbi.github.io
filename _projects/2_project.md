@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Every exercise from Hartshorne's Algebraic Geometry Chapters I-III.
+title: Hartshorne's Algebraic Geometry, Chapters I-III Exercises.
 description:
 img: 
 importance: 1
@@ -9,7 +9,7 @@ related_publications: false
 ---
 <div style="text-align: justify; margin-bottom:1rem;">
 
-
+A list of solutions to exercises from Hartshorne's Algebraic Geometry Chapters I-III is growing below.
 
 </div>
 
