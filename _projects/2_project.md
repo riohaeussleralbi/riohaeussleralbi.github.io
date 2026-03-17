@@ -2,7 +2,7 @@
 layout: page
 title: Hartshorne's Algebraic Geometry, Chapters I-III Exercises.
 description:
-img: 
+img: assets/img/Hartshorne.jpg
 importance: 1
 category: fun
 related_publications: false

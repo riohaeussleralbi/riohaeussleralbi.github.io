@@ -2,7 +2,7 @@
 layout: page
 title: Hatcher's Algebraic Topology, Chapters II-III Exercises.
 description:
-img: 
+img: assets/img/Hatcher.jpg
 importance: 1
 category: fun
 related_publications: false
