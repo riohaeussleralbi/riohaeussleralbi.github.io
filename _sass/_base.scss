@@ -170,7 +170,8 @@ ul.task-list input[type="checkbox"] {
 // Card
 
 .card {
-  background-color: var(--global-card-bg-color);
+  //background-color: var(--global-card-bg-color);
+  background-image: url(assets/img/mathbg.png);
 
   .card-img {
     width: 100%;
