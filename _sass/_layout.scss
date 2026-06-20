@@ -7,9 +7,9 @@ body {
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
   background-image: url('/assets/img/mathgif.gif');
-  background-size: 10%;
+  background-size: 100%;
   background-repeat: repeat;
-  background-blend-mode: lighten;
+  background-blend-mode: darken;
 
   h1,
   h2,
