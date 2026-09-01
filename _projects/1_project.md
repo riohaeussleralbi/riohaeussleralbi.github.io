@@ -5,7 +5,7 @@ description: Submitted to arXiv, advised by Prof. Dr. Tobias Dyckerhoff.
 img: assets/img/beilinsonsod_img.png
 importance: 1
 category: research
-related_publications: false
+related_publications: true
 ---
 
 <div style="text-align: justify; margin-bottom:1rem;">
@@ -27,6 +27,6 @@ We define semiorthogonal decompositions of stable $\infty$-categories of length 
 
 <div style="text-align: justify; margin-top:1rem;">
 
-An early draft of this project turned into my Bachelor thesis. A more polished version is available on the arXiv: https://arxiv.org/abs/2608.31020.
+An early draft of this project turned into my Bachelor thesis. A more polished version is available on the arXiv: [arXiv:2608.31020](https://arxiv.org/abs/2608.31020).
 
 </div>
