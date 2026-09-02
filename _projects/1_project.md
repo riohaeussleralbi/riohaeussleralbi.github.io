@@ -5,7 +5,7 @@ description: Submitted to arXiv, advised by Prof. Dr. Tobias Dyckerhoff.
 img: assets/img/beilinsonsod_img.png
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 <div style="text-align: justify; margin-bottom:1rem;">
